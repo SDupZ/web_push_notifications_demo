@@ -1,3 +1,3 @@
 export default {
-  vapidPublicKey: 'BPAzNOCBXempD0rvCjfgUxiKIrvtCwUW4AzoGHrjLBV2bVXoFSU1M-cbW6wyJwRgSDPcB0Zi9jUKgRL7fHJbvRU',
+  vapidPublicKey: 'BGjP7usOhLHu3qEFwlL17N0AUUANbJGDbFpELCh5Z7rztHiMtqRcbsU0xppauMC08uxRPgLVXpOtpiDH8LTSOAs',
 };

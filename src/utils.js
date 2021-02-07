@@ -30,7 +30,7 @@ export async function askForPushPermission() {
 /**
  * urlBase64ToUint8Array
  *
- * @param {string} base64String a public vavid key
+ * @param {string} base64String a public vapid key
  */
 export function urlB64ToUint8Array(base64String) {
   const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
@@ -83,16 +83,3 @@ export async function subscribeUserToPush() {
     return registration.pushManager.subscribe(subscribeOptions);
   });
 }
-
-// export async function getExistingPushSubscription() {
-//   const registration = await getServiceWorkerSubscription();
-//   const existingPushSubscription = await registration.pushManager.getSubscription();
-
-//   return existingPushSubscription;
-// }
-
-// export async function unsubscribeUserToPush() {
-//   const pushSubscription = await getExistingPushSubscription();
-//   const result = await pushSubscription.unsubscribe();
-//   return result;
-// }
