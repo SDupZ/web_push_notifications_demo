@@ -1,7 +1,9 @@
 import React from 'react';
-import { savePushSubscription, sendPushNotification } from './api';
-import { PERMISSION_STATES, askForPushPermission, subscribeUserToPush } from './utils';
+import { savePushSubscription, sendPushNotification } from '../api';
+import { PERMISSION_STATES, askForPushPermission, subscribeUserToPush } from '../utils';
 import './App.css';
+import './base.css';
+
 
 const pushEnabled = 'serviceWorker' in navigator && 'PushManager' in window;
 
