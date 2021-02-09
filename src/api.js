@@ -1,4 +1,4 @@
-const apiHostname = 'http://localhost:8888';
+const apiHostname = `${window.location.protocol}//${window.location.host}`;
 const SAVE_PUSH_SUBSCRIPTION_PATH = '/.netlify/functions/savePushSubscription';
 const SEND_PUSH_NOTIFICATION_PATH = '/.netlify/functions/sendPushNotification';
 
